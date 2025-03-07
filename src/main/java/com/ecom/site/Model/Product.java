@@ -1,6 +1,5 @@
 package com.ecom.site.Model;
 
-import com.fasterxml.jackson.annotation.JacksonAnnotation;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -23,6 +22,5 @@ public class Product {
    public  String product_image;
    public String product_description;
    public int product_quantity;
-
 
 }

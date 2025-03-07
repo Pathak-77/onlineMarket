@@ -2,6 +2,8 @@ package com.ecom.site.controller;
 
 import com.ecom.site.Model.Product;
 import com.ecom.site.service.ProductService;
+
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
